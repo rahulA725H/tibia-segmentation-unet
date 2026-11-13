@@ -69,6 +69,31 @@ To evaluate:
 python evaluate.py
 ```
 
+### Validation Segmentation Examples
+
+The following images show the U-Net segmentation results on validation knee X-rays.
+
+![Validation Example 1](demo_images/final/validation_1.png)
+
+![Validation Example 2](demo_images/final/validation_2.png)
+
+![Validation Example 3](demo_images/final/validation_3.png)
+
+### Training Performance
+
+The training curves illustrate model performance during training.
+
+![Training Curves](demo_images/final/training_curves.png)
+
+### Predictions on Unlabeled Test Images
+
+The model also generated segmentation masks for 50 unlabeled knee X-rays. Since these images have no ground-truth masks, quantitative test metrics are not reported.
+
+![Test Prediction Example 1](demo_images/final/test_example_1.png)
+
+![Test Prediction Example 2](demo_images/final/test_example_2.png)
+
+
 ## Prediction Results
 
 The trained model generated binary tibia masks for all 50 unlabeled test images.
