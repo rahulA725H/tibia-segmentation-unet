@@ -236,3 +236,21 @@ Potential future improvements include obtaining additional annotations, conducti
 This project is intended for **academic, research, and educational purposes only**.
 
 The model has not been clinically validated and should not be used for medical diagnosis, treatment planning, or clinical decision-making.
+
+## 11. Model License and Attribution
+
+**Model architecture:** U-Net (Convolutional Neural Network for Biomedical Image Segmentation).
+
+**Original authors:** Olaf Ronneberger, Philipp Fischer, and Thomas Brox (2015).
+
+**Original publication:** *U-Net: Convolutional Networks for Biomedical Image Segmentation*.
+
+**Reference:** https://doi.org/10.1007/978-3-319-24574-4_28
+
+**Framework:** PyTorch.
+
+**Model implementation:** The U-Net architecture is implemented in `model.py`, and the trained tibia segmentation checkpoint is stored in `sessions/final/best_tibia_unet.pth`.
+
+**License status:** No explicit license has been specified for this project's model implementation or trained weights. The U-Net research publication is credited above; this attribution does not imply a particular software license.
+
+Third-party dependencies and the dataset may have their own licensing terms.
